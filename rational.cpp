@@ -32,6 +32,7 @@ Rational::Rational(int numerator, int denominator){
 		_numerator = numerator;
 		_denominator = denominator;
 	}
+
 	Simplify();
 }
 string Rational::ToString()const{
